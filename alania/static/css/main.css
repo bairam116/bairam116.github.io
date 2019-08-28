@@ -1032,7 +1032,6 @@ body {
  */
 .main-slider-wrapper {
   position: relative;
-  overflow: hidden;
   left: -92px;
   width: calc(100% + 184px);
   margin-bottom: 56px;
@@ -1058,6 +1057,8 @@ body {
   z-index: 2;
   left: 0;
   bottom: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   padding-left: 32px;
   padding-right: 32px;
