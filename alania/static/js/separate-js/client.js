@@ -1,3 +1,5 @@
+$('body').width($(window).width());
+
 var sliderPrevBtn = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"><g><g><path fill="#252525" d="M4.98 0L0 5l4.98 5 .917-.92L2.48 5.65H14v-1.3H2.48L5.897.92z"/></g></g></svg>',
   sliderNextBtn = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"><g><g><path fill="#252525" d="M9.02 0L14 5l-4.98 5-.917-.92 3.417-3.43H0v-1.3h11.52L8.103.92z"/></g></g></svg>';
 
