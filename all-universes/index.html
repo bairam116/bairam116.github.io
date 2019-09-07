@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Home page</title>
+  <meta name="description" content="Description">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="img/favicon/">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/">
+  <meta name="theme-color" content="#000">
+  <meta name="msapplication-navbutton-color" content="#000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__inner animated fadeIn">
+
+      <h1 class="logo">
+        <a class="logo__link" href="index.html">
+          All-Universes
+        </a>
+      </h1>
+
+      <nav class="main-menu-wrapper main-menu-wrapper_active" role="navigation">
+        <ul class="main-menu">
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="">
+              <span class="icon icon_wallet"></span>
+              <span class="main-menu__link-text">
+                Кошелек
+              </span>
+            </a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="">
+              <span class="icon icon_profits"></span>
+              <span class="main-menu__link-text">
+                Биржа
+              </span>
+            </a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="">
+              <span class="icon icon_nature"></span>
+              <span class="main-menu__link-text">
+                ICO платформа
+              </span>
+            </a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="">
+              <span class="icon icon_startup"></span>
+              <span class="main-menu__link-text">
+                Деривативы
+              </span>
+            </a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link main-menu__link_last" href="">
+              <span class="icon icon_shop"></span>
+              <span class="main-menu__link-text">
+                Магазин
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="help-menu">
+          <li class="help-menu__item">
+            <a class="help-menu__link" href="">
+              Помощь
+            </a>
+          </li>
+          <li class="help-menu__item">
+            <a class="help-menu__link" href="">
+              API
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="hidden-main-menu">
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Кошелек
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Биржа
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            ICO платформа
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Деривативы
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Магазин
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Помощь
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            API
+          </a>
+        </li>
+        <li class="hidden-main-menu__item">
+          <a class="hidden-main-menu__link" href="">
+            Смена языка
+          </a>
+        </li>
+      </ul>
+
+      <div class="auth-wrapper">
+        <a id="login-link" class="auth-wrapper__link" href="">
+          Войти
+        </a>
+        <span class="auth-wrapper__text">
+          или
+        </span>
+        <a id="register-link" class="auth-wrapper__link" href="">
+          Зарегистрироваться
+        </a>
+      </div>
+
+      <div class="menu-btn">
+        <div class="menu-btn__item menu-btn__item_1"></div>
+        <div class="menu-btn__item menu-btn__item_2"></div>
+        <div class="menu-btn__item menu-btn__item_3"></div>
+      </div>
+
+      <div class="language">
+        <div class="language__inner">
+          <span class="icon icon_earth"></span>
+          <div class="language__name">
+            Русский
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="home-main">
+    <div class="inner">
+      <div class="home-main__inner">
+
+        <div class="last-news animated fadeIn">
+          <h3 class="last-news__title">
+            Последние новости
+          </h3>
+          <div class="last-news__column">
+            <div class="news">
+              <div class="news__date">
+                22 Jul 2018
+              </div>
+              <p class="news__text">
+                Enhance Your Life By Having A Sense Of Purpose
+              </p>
+            </div>
+            <div class="news">
+              <div class="news__date">
+                22 Jan 2018
+              </div>
+              <p class="news__text">
+                The Importance Of Food Elements
+              </p>
+            </div>
+            <div class="news">
+              <div class="news__date">
+                09 May 2018
+              </div>
+              <p class="news__text">
+                Hypnosis Quit Smoking Techniques
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="company-info animated fadeIn">
+          <img class="company-info__img" src="img/home-page/logo_big.svg" alt="Логотип компании">
+          <h2 class="company-info__name">
+            All-Universes
+          </h2>
+          <p class="company-info__description">
+            новый стандарт глобальной экономики
+          </p>
+        </div>
+
+        <div class="quotations animated fadeIn">
+          <h3 class="quotations__title">
+            Котировки
+          </h3>
+          <div class="quotations__column">
+            <div class="quotation">
+              <div class="quotation__name">
+                <span class="quotation__percent quotation__percent_minus">-12%</span>
+                <span class="currency">USD/BTC</span>
+              </div>
+              <div class="quotation__amount">
+                <span>0.00002712</span>
+                <span class="quotation__price">
+                  74.00$
+                </span>
+              </div>
+              <div class="quotation__volume">
+                Volume <span>1,82919</span> BTC
+              </div>
+            </div>
+            <div class="quotation">
+              <div class="quotation__name">
+                <span class="quotation__percent quotation__percent_minus">-4%</span>
+                <span class="currency">BTC/LTC</span>
+              </div>
+              <div class="quotation__amount">
+                <span>0.00009713</span>
+                <span class="quotation__price">
+                  14.00$
+                </span>
+              </div>
+              <div class="quotation__volume">
+                Volume <span>1,82919</span> BTC
+              </div>
+            </div>
+            <div class="quotation">
+              <div class="quotation__name">
+                <span class="quotation__percent quotation__percent_plus">+2%</span>
+                <span class="currency">BTC/LTC</span>
+              </div>
+              <div class="quotation__amount">
+                <span>0.00009713</span>
+                <span class="quotation__price">
+                  14.00$
+                </span>
+              </div>
+              <div class="quotation__volume">
+                Volume <span>1,82919</span> BTC
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="features features_home-top">
+    <div class="inner">
+      <div class="features__inner">
+
+        <div class="features__row">
+
+          <div class="feature feature_small animated fadeInUp">
+            <div class="feature__icon feature__icon_1"></div>
+            <h3 class="feature__title">
+              Крипто-Биржа
+            </h3>
+            <p class="feature__description">
+              Децентрализованная с возможностью торгов в USD, EURO после верификации
+            </p>
+          </div>
+
+          <div class="feature feature_small animated fadeInUp">
+            <div class="feature__icon feature__icon_2"></div>
+            <h3 class="feature__title">
+              Кошелек<br>
+              с крипто-монетой AIIU
+            </h3>
+            <p class="feature__description">
+              все транзакции между  владельцами монет  осуществляется на прямую (P2P) минуя любые институты контроля и защищены криптографически
+            </p>
+          </div>
+
+          <div class="feature feature_small animated fadeInUp">
+            <div class="feature__icon feature__icon_3"></div>
+            <h3 class="feature__title">
+              Смарт-контракты
+            </h3>
+            <p class="feature__description">
+              для запуска ICO и прочих финансовых сервисов
+            </p>
+          </div>
+
+          <div class="feature feature_small animated fadeInUp">
+            <div class="feature__icon feature__icon_4"></div>
+            <h3 class="feature__title">
+              Маркет
+            </h3>
+            <p class="feature__description">
+              с товарами и услугами
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="download">
+    <div class="inner">
+      <div class="download__inner">
+        <div class="download__mobile-links">
+          <div class="download__column download__column_1">
+            <img class="download__mobile-img download__mobile-img_android" src="img/home-page/android.png" alt="">
+            <a class="download__link download__link_1" href="">
+              <span class="icon icon_android"></span>
+              All-Universe для <span class="download__platform download__platform_1">Android</span>
+            </a>
+          </div>
+          <div class="download__column download__column_2">
+            <img class="download__mobile-img" src="img/home-page/iphone.png" alt="">
+            <a class="download__link download__link_2" href="">
+              <span class="icon icon_apple"></span>
+              All-Universe для <span class="download__platform download__platform_2">iOS</span>
+            </a>
+          </div>
+        </div>
+        <h2 class="download__title">
+          Используйте All-Universes на Вашем устройстве
+        </h2>
+        <div class="download__desktop-links-wrapper">
+          <img class="download__desktop-img" src="img/home-page/macbooks.png" alt="Фото ноутбуков MacBook">
+          <img class="download__desktop-img download__desktop-img_mobile" src="img/derivatives-page/macbook.png" alt="Фото MacBook">
+          <div class="download__desktop-links">
+            <a class="download__link download__link_3" href="">
+              All-Universe <span class="download__platform">Web-версия</span>
+            </a>
+            <a class="download__link download__link_4" href="">
+              All-Universe для <span class="download__platform">MacOS</span>
+            </a>
+            <a class="download__link" href="">
+              All-Universe для <span class="download__platform">PC/Mac/Linux</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="inner">
+      <div class="features__inner">
+
+        <h2 class="features__title">
+          Почему стоит использовать All-Universes?
+        </h2>
+
+        <div class="features__row">
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_5"></div>
+            <h3 class="feature__title">
+              Безопасно
+            </h3>
+            <p class="feature__description">
+              4 вида хранения приватного кошелька (холодное и горячее)
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon feature__icon_6"></div>
+            <h3 class="feature__title">
+              Конфиденциально
+            </h3>
+            <p class="feature__description">
+              Транзакции между пользователями производятся на прямую, без посредников
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_7"></div>
+            <h3 class="feature__title">
+              Быстро
+            </h3>
+            <p class="feature__description">
+              Моментальное исполнение транзакций без задержек
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_8"></div>
+            <h3 class="feature__title">
+              Бесплатно
+            </h3>
+            <p class="feature__description">
+              Для BitCoin транзакций - отсутствует дополнительная комиссия
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_9"></div>
+            <h3 class="feature__title">
+              Масштабируемо
+            </h3>
+            <p class="feature__description">
+              Бесплатное открытое API проекта, для всех разработчиков!
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_10"></div>
+            <h3 class="feature__title">
+              Гибко
+            </h3>
+            <p class="feature__description">
+              Монетами All-Universes можно расплачиваться внутри проекта за товары и услуги
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="features features">
+    <div class="inner">
+      <div class="features__inner features__inner_bottom">
+
+        <h2 class="features__title">
+          Что Вы можете делать в All-Universes?
+        </h2>
+
+        <div class="features__row">
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_11"></div>
+            <h3 class="feature__title">
+              Зарабатывать
+            </h3>
+            <p class="feature__description">
+              криптовалюту продавай товары и услуги
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_12"></div>
+            <h3 class="feature__title">
+              Торговать
+            </h3>
+            <p class="feature__description">
+              криптовалютой на бирже
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_13"></div>
+            <h3 class="feature__title">
+              Быстро
+            </h3>
+            <p class="feature__description">
+              Моментальное исполнение транзакций без задержек
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_14"></div>
+            <h3 class="feature__title">
+              Запускать ICO
+            </h3>
+            <p class="feature__description">
+              и другие другие формы финансового взаимодействия, используя смарт контакты All-Universes
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_15"></div>
+            <h3 class="feature__title">
+              Создавать
+            </h3>
+            <p class="feature__description">
+              свои проекты на базе нашего открытого API
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon feature__icon_16"></div>
+            <h3 class="feature__title">
+              Инвестировать
+            </h3>
+            <p class="feature__description">
+              средства в ICO или в индексные фонды крипто-трейдеров
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer__inner">
+        <div class="footer__left-column">
+          <h3 class="footer__title">
+            Подписывайтесь на нас
+          </h3>
+          <div class="social-block">
+            <div class="social-block__column">
+              <a class="social-block__link social-block__link_1" href="">
+                <span class="icon icon_twitter"></span>
+                <span class="social-block__text">
+                  Twitter
+                </span>
+              </a>
+              <a class="social-block__link social-block__link_2" href="">
+                <span class="icon icon_telegram"></span>
+                <span class="social-block__text">
+                  Telegram
+                </span>
+              </a>
+            </div>
+            <div class="social-block__column">
+              <a class="social-block__link social-block__link_3" href="">
+                <span class="icon icon_youtube"></span>
+                <span class="social-block__text">
+                  Youtube
+                </span>
+              </a>
+              <a class="social-block__link social-block__link_4" href="">
+                <span class="icon icon_facebook"></span>
+                <span class="social-block__text">
+                  Facebook
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__center-column">
+          <h3 class="footer__title">
+            О проекте
+          </h3>
+          <nav class="footer-menu-wrapper">
+            <ul class="footer-menu">
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Помощь
+                </a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Пресса
+                </a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Условия
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__right-column">
+          <h3 class="footer__title">
+            Партнерство
+          </h3>
+          <nav class="footer-menu-wrapper">
+            <ul class="footer-menu">
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Листинг монет на биржу
+                </a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Интеграция в Ваш бизнес
+                </a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="">
+                  Ритейлу и интернет магазинам
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
