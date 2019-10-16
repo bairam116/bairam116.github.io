@@ -122,29 +122,31 @@ function lazyLoad() {
 }
 
 function fixHeader() {
-  var header = $('.header'),
-      staticHeaderMenuItems = $('.header__complicated .common-menu__item'),
-      headerLight = $('.header__light'),
-      headerLightMenu = $('.header__light .common-menu')
+  if ($(window).width > 960) {
+    var header = $('.header'),
+        staticHeaderMenuItems = $('.header__complicated .common-menu__item'),
+        headerLight = $('.header__light'),
+        headerLightMenu = $('.header__light .common-menu')
 
-  $(window).on('scroll', function() {
-    var windowScrollTop = $(window).scrollTop()
+    $(window).on('scroll', function() {
+      var windowScrollTop = $(window).scrollTop()
 
-    if (windowScrollTop >= 200) {
-      headerLight.css('border-color', 'rgba(12, 154, 221, .4)')
-      headerLightMenu.css('display', 'flex')
-    } else {
-      headerLight.css('border-color', 'transparent')
-      headerLightMenu.css('display', 'none')
-    }
+      if (windowScrollTop >= 200) {
+        headerLight.css('border-color', 'rgba(12, 154, 221, .4)')
+        headerLightMenu.css('display', 'flex')
+      } else {
+        headerLight.css('border-color', 'transparent')
+        headerLightMenu.css('display', 'none')
+      }
 
-    if (windowScrollTop >= 690) {
-      header.addClass('header_fixed')
-      staticHeaderMenuItems.removeClass('common-menu__item_active')
-    } else {
-      header.removeClass('header_fixed')
-    }
-  })
+      if (windowScrollTop >= 690) {
+        header.addClass('header_fixed')
+        staticHeaderMenuItems.removeClass('common-menu__item_active')
+      } else {
+        header.removeClass('header_fixed')
+      }
+    });
+  }
 }
 
 function showHeaderDropdownMenu() {
