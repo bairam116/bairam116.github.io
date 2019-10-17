@@ -12,21 +12,10 @@ if ($('.wow')) {
 
 LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 
-if ($('.datepicker').length) {
-  LazyLoad.js('https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.3/flatpickr.min.js', function() {
-    initDatepicker();
-  });
-  LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.3/flatpickr.min.css');
-}
-
-if ($('.js-range-slider').length) {
-  LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css');
-}
-
 if ($('.owl-carousel').length) {
   LazyLoad.js([
-      'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
-      'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'
+    'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'
   ], function() {
     if ($('.default-slider').length) {
       initDefaultSlider();
@@ -53,8 +42,9 @@ if ($('.owl-carousel').length) {
     }
   });
   LazyLoad.css([
-      'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css',
-      'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css'
+    'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css'
   ]);
 }
 
@@ -74,6 +64,27 @@ if ($('.nice-select').length) {
 }
 
 LazyLoad.js('https://cdn.jsdelivr.net/npm/scroll-lock@2.1.2/dist/scroll-lock.min.js');
+
+LazyLoad.js('https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/4.0.10/dotdotdot.js', function() {
+  initTitleDots();
+});
+
+if ($('input[type="tel"]').length) {
+  LazyLoad.js('https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js', function() {
+    initPhoneMask();
+  });
+}
+
+if ($('.js-range-slider').length) {
+  LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css');
+}
+
+if ($('.datepicker').length) {
+  LazyLoad.js('https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.3/flatpickr.min.js', function() {
+    initDatepicker();
+  });
+  LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.3/flatpickr.min.css');
+}
 
 function isTouchDevice() {
   var isTouchDevice = false;
@@ -1435,9 +1446,7 @@ $(document).ready(function() {
   initLazyLoad();
   initItemPhotosSlider();
   changeCartTitle();
-  initTitleDots();
   initInputStates();
-  initPhoneMask();
   filterDropdownItems();
   initFooterDropdown();
   orderFormFunctional();
