@@ -451,7 +451,8 @@ input[type='date']::-webkit-inner-spin-button, input[type='date']::-webkit-calen
 }
 
 .popup__container {
-  overflow: hidden auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .popup__content {
