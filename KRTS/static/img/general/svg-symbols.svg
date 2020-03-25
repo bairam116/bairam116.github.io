@@ -1,7 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="border: 0 !important; clip: rect(0 0 0 0) !important; height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0 !important; position: absolute !important; width: 1px !important;" class="root-svg-symbols-element">
-  <defs>
-      <clipPath id="uq1xa"><path fill="#fff" d="M0 9a9 9 0 1 1 18 0A9 9 0 0 1 0 9z"/></clipPath>
-  </defs>
     <symbol id="arrow-left-bg" viewBox="0 0 294 325">
       <path fill="#e43437" d="M140.734 190.906v-57.668H294v57.668z" opacity=".1"/><path fill="#e43437" d="M213.752 0L75.432 162.074 220.522 325h-76.236L0 162.074 137.553 0z" opacity=".1"/>
     </symbol>
@@ -58,9 +55,6 @@
     </symbol>
     <symbol id="outer-link" viewBox="0 0 18 18">
       <path d="M17.182 0h-6.546a.818.818 0 0 0 0 1.636h4.57l-8.42 8.422a.818.818 0 1 0 1.156 1.157l8.422-8.422v4.57a.818.818 0 0 0 1.636 0V.819A.818.818 0 0 0 17.182 0z"/><path d="M13.91 8.182a.818.818 0 0 0-.82.818v7.364H1.637V4.909H9a.818.818 0 0 0 0-1.636H.818A.818.818 0 0 0 0 4.09v13.09c0 .453.366.819.818.819H13.91a.818.818 0 0 0 .818-.818V9a.818.818 0 0 0-.818-.818z"/>
-    </symbol>
-    <symbol id="pin-2" viewBox="0 0 18 18">
-      <path fill="#fff" d="M0 9a9 9 0 1 1 18 0A9 9 0 0 1 0 9z"/><path fill="none" stroke="#e43437" stroke-miterlimit="20" stroke-width="2" d="M0 9a9 9 0 1 1 18 0A9 9 0 0 1 0 9z" clip-path="url(&quot;#uq1xa&quot;)"/><path fill="#e43437" d="M4 9a5 5 0 1 1 10 0A5 5 0 0 1 4 9z"/>
     </symbol>
     <symbol id="pin" viewBox="0 0 40 53">
       <path fill="#e43437" d="M20 30.79c-5.937 0-10.79-4.852-10.79-10.79 0-5.937 4.853-10.789 10.79-10.789 5.937 0 10.79 4.852 10.79 10.79 0 5.937-4.853 10.79-10.79 10.79zM20 0C8.972 0 0 8.974 0 20a19.82 19.82 0 0 0 3.99 11.99l14.777 19.903c.037.048.094.067.135.11.738.79 1.804.592 2.33-.11 4.255-5.678 12.055-16.282 15.054-20.282l.002-.005.019-.025A19.857 19.857 0 0 0 40 20.001C40 8.973 31.028 0 20 0z"/>
