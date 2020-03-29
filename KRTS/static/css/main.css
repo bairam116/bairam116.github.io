@@ -347,6 +347,7 @@ template {
   src: url("../fonts/Roboto/Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Regular/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Regular/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto/Regular/Roboto-Regular.svg#svgFontName") format("svg");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -355,6 +356,7 @@ template {
   src: url("../fonts/Roboto/Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto/Bold/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto/Bold/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto/Bold/Roboto-Bold.svg#svgFontName") format("svg");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 .btn {
@@ -781,6 +783,20 @@ h4 {
 h5 {
   font-size: 18px;
   line-height: 32px;
+}
+
+.animate-title {
+  opacity: 0;
+  -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+          clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.animate-title.show {
+  opacity: 1;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .section-title {
@@ -9208,6 +9224,7 @@ textarea {
 .page-heading__title {
   max-width: 784px;
   margin: 0;
+  opacity: 0;
   font-size: 66px;
   font-weight: 700;
   line-height: 88px;
