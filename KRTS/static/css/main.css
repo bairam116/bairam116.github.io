@@ -1330,6 +1330,15 @@ textarea {
   }
 }
 
+.default-form label.error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #E43437;
+}
+
 .default-form .file-wrapper {
   margin-top: 16px;
 }
