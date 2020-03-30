@@ -1617,6 +1617,10 @@ textarea {
   background-color: #FFF;
 }
 
+.main-wrapper_gray {
+  background-color: #FBFBFB;
+}
+
 .common-container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5545,7 +5549,7 @@ textarea {
   }
 }
 
-.nfp__icon-wrapper {
+.nfp__img-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5557,29 +5561,24 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .nfp__icon-wrapper {
+  .nfp__img-wrapper {
     padding-left: 0;
   }
 }
 
+.nfp__img {
+  max-width: 380px;
+}
+
 @media (max-width: 1366px) {
-  .nfp__icon {
-    width: 280px;
-    height: 80px;
+  .nfp__img {
+    max-width: 280px;
   }
 }
 
 @media (max-width: 992px) {
-  .nfp__icon {
-    width: 220px;
-    height: 63px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nfp__icon {
-    width: 220px;
-    height: 63px;
+  .nfp__img {
+    max-width: 220px;
   }
 }
 
