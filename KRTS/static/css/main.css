@@ -5881,7 +5881,7 @@ textarea {
 }
 
 .nav-menu__description {
-  display: inline-block;
+  display: none;
   margin-top: 4px;
   font-size: 14px;
   line-height: 24px;
@@ -8494,6 +8494,10 @@ textarea {
     font-size: 24px;
     line-height: 36px;
   }
+}
+
+.megamenu .nav-menu__description {
+  display: inline-block;
 }
 
 .megamenu__border {
